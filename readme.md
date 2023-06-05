@@ -1,6 +1,6 @@
 # Transformer-based Self-supervised Multimodal Representation Learning for Wearable Emotion Recognition
 
-This repository contains official implementation of the paper: [Transformer-Based Self-Supervised Multimodal Representation Learning for Wearable Emotion Recognition](https://arxiv.org/abs/2107.13669)
+This repository contains official implementation of the paper: [Transformer-Based Self-Supervised Multimodal Representation Learning for Wearable Emotion Recognition](https://arxiv.org/abs/2303.17611)
 
 ## Model Architecture
 
