@@ -1,4 +1,4 @@
-# Transformer-based Self-supervised Multimodal Representation Learning for Wearable Emotion Recognition
+# A Self-Supervised Learning (SSL) Method for Wearable Emotion Recognition (WER)
 
 This repository contains official implementation of the paper: [Transformer-Based Self-Supervised Multimodal Representation Learning for Wearable Emotion Recognition](https://arxiv.org/abs/2303.17611)
 
