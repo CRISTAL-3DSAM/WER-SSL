@@ -6,7 +6,7 @@ This repository contains official implementation of the paper: [Transformer-Base
 
 Overview of our self-supervised multimodal representation learning framework. The proposed self-supervised learning (SSL) model is first pre-trained with signal transform recognition as the pretext task to learn generalized multimodal representation. The encoder part of the resulting pre-trained model is then served as a feature extractor for downstream tasks which is frozen or fine-tuned on the labeled samples to predict emotion classes.
 
-
+<img src="https://github.com/YWU726/code-ssl-test/blob/main/Figures/Overview.JPG" width="70%" height="70%">
 
 ## Usage
 
@@ -17,7 +17,7 @@ conda env create -f environment.yml
 conda activate SSL
 ```
 
-**2. Datasets **
+**2. Datasets**
 
 The pre-trained SSL model was evaluated on three multimodal datasets: [WESAD](https://www.eti.uni-siegen.de/ubicomp/papers/ubi_icmi2018.pdf), [CASE](https://www.nature.com/articles/s41597-019-0209-0.pdf) and [K-EmoCon](https://www.nature.com/articles/s41597-020-00630-y.pdf). Please cite the creators.
 
@@ -29,7 +29,7 @@ python SSL.py --path=<path to the downloaded codes> --data_pat=<path to the unla
 
 In the paper, we use the PRESAGE dataset that we collected at the [Presage Training Center](https://medecine.univ-lille.fr/presage) in Lille, France, for self-supervised learning. Discussions with the funders and the University of Lille are underway to make this dataset publicly accessible. In this case, the pre-trained models are shared in the folder ```pretrained_models```. You can also use your own data at hand for pre-training.
 
-**4. Evaluate the SSL model on supervised emotion datasets ** 
+**4. Evaluate the SSL model on supervised emotion datasets** 
 
 For WESAD:
 
